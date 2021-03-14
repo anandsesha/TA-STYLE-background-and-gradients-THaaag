@@ -99,12 +99,19 @@ h6 {
     padding: 16px 24px 12px 0;
 }
 
+.padding-top {
+    padding-top: 6px;
+}
+
 /* Header */
 
 .header {
-    background-color: #20222f;
-    padding: 48px 0 72px 0;
+    background-color: #282a3a;
+    padding: 48px 0 200px 0;
     text-transform: capitalize;
+    position: absolute;
+    width: 100%;
+    top: 0;
 }
 
 .heading {
@@ -138,6 +145,10 @@ h6 {
     display: inline-block;
 }
 
+.main {
+    margin-top: 180px;
+}
+
 /* Follower Section */
 
 .follower-section {
@@ -150,6 +161,34 @@ h6 {
     height: 260px;
     background-color: #333649;
     border-radius: 8px;
+}
+
+.box-parent-border {
+    position: relative;
+}
+
+
+.box-child-border {
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+}
+
+.box-child-fb-twitter {
+    background-color: #1791f5;
+}
+
+.box-child-insta {
+    background: linear-gradient(to right,#f9b970,#e67b83,#dd5092);
+}
+
+.box-child-youtube {
+    background-color: #bf3229; 
 }
 
 .center {
