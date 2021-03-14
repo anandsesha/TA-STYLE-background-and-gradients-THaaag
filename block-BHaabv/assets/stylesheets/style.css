@@ -1,0 +1,232 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom Styles */
+
+*
+{
+    box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+/* Modular */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex-gap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h6 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #757b94;
+    text-transform: capitalize;
+}
+
+.padding-left-tb {
+    padding: 16px 0 12px 24px ;
+}
+
+.padding-right-tb {
+    padding: 16px 24px 12px 0;
+}
+
+/* Header */
+
+.header {
+    background-color: #20222f;
+    padding: 48px 0 72px 0;
+    text-transform: capitalize;
+}
+
+.heading {
+    font-size: 40px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.dark-mode {
+    text-decoration: none;
+    color: #757b94;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.toggle-switch {
+    margin-left: 18px;
+    width: 48px;
+    height: 24px;
+    background-color: white;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,rgba(62,133,181),rgba(77,200,153) 80%);
+}
+
+.toggle-circle {
+    width: 14px;
+    height: 14px;
+    margin: 0 0 1px 3px;
+    border-radius: 50%;
+    background-color: #272727;
+    display: inline-block;
+}
+
+/* Follower Section */
+
+.follower-section {
+    background-color: #20222f;
+    padding: 48px 0;
+}
+
+.col-1-4 {
+    width: 22%;
+    height: 260px;
+    background-color: #333649;
+    border-radius: 8px;
+}
+
+.center {
+    text-align: center;
+}
+
+.followers {
+    display: block;    
+}
+
+.facebook {
+    color: #1791f5;
+}
+
+.twitter {
+    color: #1791f5;
+}
+
+.insta {
+    color: #b36584;
+}
+
+.youtube {
+    color: #b5302f;
+}
+
+.handle span {
+    font-size: 16px;
+    padding-left: 10px;
+    color: #8189ae;
+}
+
+.follower-heading {
+    font-size: 80px;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: -3px;
+}
+
+.followers {
+    font-size: 18px;
+    color: #72789a;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding-bottom: 32px;
+}
+
+.points-up {
+    color: #5ab8a2;
+    font-size: 16px;
+    padding-bottom: 6px;
+}
+
+.points-down {
+    color: #c85050;
+    font-size: 16px;
+    padding-bottom: 6px;
+}
+
+/* Overview Section */
+
+.overview-section {
+    background-color: #20222f;
+    padding: 60px 0;
+}
+
+.small-col-1-4 {
+    width: 22%;
+    height: 160px;
+    background-color: #333649;
+    border-radius: 8px;
+    margin: 32px 0;
+}
+
+.small-col-2-4 {
+    width: 22%;
+    height: 160px;
+    background-color: #333649;
+    border-radius: 8px;
+}
